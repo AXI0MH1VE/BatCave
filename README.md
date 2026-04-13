@@ -52,6 +52,17 @@ Your Windows → WireGuard VPN → Tor Browser → Internet
 | `BATCAVE-VPN-SPEC.md` | VPN application architecture |
 | `BATCAVE-VPN-CLI.ps1` | VPN CLI application |
 
+## Warp AI - Private Assistant
+
+Private local AI agent in Warp terminal for BatCave setup/advice.
+
+### Setup
+1. Run `cd warp-ai && .\setup-ollama.ps1` (uses llama3 via Ollama)
+2. Warp: Cmd+, → AI → Agents → Import `warp-ai/WarpAI-Agent.md`
+3. Chat: Cmd+i
+
+Focus: VPN troubleshooting, privacy hardening, threat intel.
+
 ## Key Rules
 
 - Never log into personal accounts in Tor
